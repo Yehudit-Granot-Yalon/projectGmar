@@ -3,3 +3,11 @@ Tasks
 2 Check the height interest on the map
 3 View point details
 4 Make functions of conversions
+
+
+Tasks done
+02.03
+We showed a point on the map
+03.03
+Add a listener to a point on the map
+07.03
