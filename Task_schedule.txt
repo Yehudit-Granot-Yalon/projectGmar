@@ -11,3 +11,4 @@ We showed a point on the map
 03.03
 Add a listener to a point on the map
 07.03
+add Adding information to a specific point
