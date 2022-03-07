@@ -12,3 +12,5 @@ We showed a point on the map
 Add a listener to a point on the map
 07.03
 add Adding information to a specific point
+08.03
+Displays point details in a popup window
