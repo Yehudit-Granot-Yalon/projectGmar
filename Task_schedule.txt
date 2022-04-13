@@ -3,6 +3,12 @@ Tasks
 2 Check the height interest on the map
 3 View point details
 4 Make functions of conversions
+5 Do a function of height
+6 Design of floating points
+7 Connect our software to radar
+8 Check for a change in the file
+9 Extract the point details from the file
+10 Save flight files in storage
 
 
 Tasks done
@@ -14,3 +20,13 @@ Add a listener to a point on the map
 add Adding information to a specific point
 08.03
 Displays point details in a popup window
+10.03
+function of height
+15.03
+Design of floating points
+17.03
+Check that the program is working offline
+19.03
+Centering the map according to the route of the flight
+15.04
+Point conversions
