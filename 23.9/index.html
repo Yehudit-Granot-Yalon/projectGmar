@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+<script>
+
+</script>
+
+  
+  <meta charset="UTF-8">
+  <title>GeoJSON</title>
+  <input type="file" id="file">
+ <button type="button" id="cleanMap">Clean Map!</button>
+  <button type = "button" id = "writeToExel" >Save Map!</button>
+
+
+<script>
+  // const input = document.getElementById('file'):
+  // input.onchange = async function() {
+  //   const tiff = await fromBlob(input.files[0]);
+  // }
+</script>
+  
+  <!-- Pointer events polyfill for old browsers, see https://caniuse.com/#feat=pointer -->
+  <!-- <script src="https://unpkg.com/elm-pep"></script> -->
+  <!-- The lines below are only needed for old environments like Internet Explorer and Android 4.x -->
+  <!-- <script
+    src="https://cdn.polyfill.io/v3/polyfill.min.js?features=fetch,requestAnimationFrame,Element.prototype.classList,TextDecoder"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/3.18.3/minified.js"></script>
+  <script src="https://unpkg.com/elm-pep@1.0.6/dist/elm-pep.js"></script> -->
+  <!-- <script src="./main.js"></script> -->
+
+  <!-- The lines below are only needed for old environments like Internet Explorer and Android 4.x -->
+  <!-- <script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=fetch,requestAnimationFrame,Element.prototype.classList,TextDecoder"></script> -->
+   <link rel="stylesheet" href="style.css" /> <!-- the css file link -->
+   <!-- <script type="module"  src="defines.js"></script> -->
+   <script type="module"  src="Map.js"></script>
+   <script   type="module" src="Trackers.js"></script>
+  <script  type="module" src="Point.js"></script>
+</head>
+<!-- <body onload="init()"> -->
+<body>
+  <div id=tableDisplay class="tablePlace"></div>
+  <div id="map" class="map"></div>
+  <div id="height-file"></div>
+   <div id="popup" class="ol-popup">
+    <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+    <div id="popup-content"></div>
+    <div id="popup-icon"></div>
+
+  </div>
+</body>
+</html>
