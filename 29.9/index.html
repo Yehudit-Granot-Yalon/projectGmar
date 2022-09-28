@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GeoJSON</title>
+  
+  
+
+  <link rel="stylesheet" href="style.css" /> <!-- the css file link -->
+  <script type="module" src="Map.js"></script>
+  <script type="module" src="Trackers.js"></script>
+  <script type="module" src="Point.js"></script>
+  <!-- <script type="module"  src="defines.js"></script> -->
+
+</head>
+<!-- <body onload="init()"> -->
+
+<body>
+  <div id="backGround"> 
+  <input type="file" id="file">
+  <button type="button" id="cleanMap" class="buttons">Clean Map!</button>
+  <button type="button" id="writeToExel" class="buttons">Save Map!</button>
+
+ 
+    <div id=tableDisplay class="tablePlace"></div>
+    <div id="map" class="map"></div>
+    <div id="height-file"></div>
+    <div id="popup" class="ol-popup">
+      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+      <div id="popup-content"></div>
+      <div id="popup-icon"></div>
+    </div>
+  </div>
+</body>
+
+</html>
