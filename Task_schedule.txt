@@ -10,12 +10,15 @@ Tasks
 9 Extract the point details from the file
 10 Save flight files in storage
 11 Download tracking data to a file
-12 Build a manual server for downloading hosts with Docker
-
+12 Building a manual server for downloading hosts with Docker
+13 Download a tiff file for the height data in a requested area
+14 Extraction of height data from a tiff file in the requested area
+15 Kalman filter A filter to filter the noise of the hovering position of the drone
+16 Building a server that simulates a radar to detect drones
 
 Tasks done
 02.03
-We showed a point on the 
+We showed a point on the map
 03.03
 Add a listener to a point on the map
 07.03
@@ -31,4 +34,27 @@ Check that the program is working offline
 19.03
 Centering the map according to the route of the flight
 15.04
-Point conversions
+Point conversions 
+16.5
+Installing tools to download a tiff file
+20.5
+tiff file download
+01.6
+
+10.6
+
+20.6
+
+28.6
+
+15.7
+
+01.10
+
+15.10
+
+30.10
+
+15.10
+
+20.10
