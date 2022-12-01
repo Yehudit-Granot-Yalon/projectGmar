@@ -40,21 +40,22 @@ Installing tools to download a tiff file
 20.5
 tiff file download
 01.6
-
+Extracting the height data from a tiff file
 10.6
-
+Displaying a long table of coordinate data
 20.6
-
+Writing data to a tracking file
 28.6
-
+Reading data from a trace file
 15.7
-
+Download a trace file
 01.10
-
+Downloading a guest data file in the Land of Israel
 15.10
-
+You built a tile server in Docker
 30.10
-
+You built dummy data to send to the radar
 15.10
-
+Building a server that simulates Radar
 20.10
+Building a Kalman filter
