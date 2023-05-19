@@ -1,2 +1,1 @@
-# projectGmar
-Final project of Hani and Yehudit
+Final Project
