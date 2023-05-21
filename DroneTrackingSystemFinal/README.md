@@ -14,7 +14,8 @@ One of the key features of the software is its high level of protection, which m
 2.To view a summary of coordinate details, hover the mouse over the desired coordinate.
 
 3.To view the complete gliding details of a coordinate, click on the desired coordinate.
-![Project logo](/images/use1.jpg "My Project")
+
+![Project logo](images/use1.jpg "My Project")
 
 4.To delete the old internal and external data of the map, click on the "Clean Map" button.
 
